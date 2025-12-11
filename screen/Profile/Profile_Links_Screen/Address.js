@@ -7,7 +7,7 @@ import AddAddress from './AddAddress';
 import * as SecureStore from 'expo-secure-store';
 import axios from 'axios';
 import Loader from '../../../components/Loader';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import { MaterialCommunityIcons as Icon } from '@expo/vector-icons';
 import { TouchableOpacity } from 'react-native';
 import { API_V1_URL } from '../../../constant/API';
 

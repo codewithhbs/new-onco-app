@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { View, Text, TouchableOpacity, ScrollView, Modal, Image, TouchableWithoutFeedback, Alert } from 'react-native';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import { MaterialCommunityIcons as Icon } from '@expo/vector-icons';
 import styles from './styles';
 import RazorpayCheckout from 'react-native-razorpay';
 import * as SecureStore from "expo-secure-store";

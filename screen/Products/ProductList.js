@@ -7,7 +7,7 @@ import {
 } from 'react-native';
 import axios from 'axios';
 import { ProductCard } from './ProductCard';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import { MaterialCommunityIcons as Icon } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 import { API_V1_URL } from '../../constant/API';
 

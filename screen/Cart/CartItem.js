@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Image, TouchableOpacity } from 'react-native';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import { MaterialCommunityIcons as Icon } from '@expo/vector-icons';
 import { useDispatch } from 'react-redux';
 import styles from './styles';
 import { UpdateCartItem } from '../../store/slice/Cart/CartSlice';

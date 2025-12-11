@@ -1,6 +1,6 @@
 import { View, Text, TouchableOpacity } from 'react-native';
 import React, { useRef } from 'react';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import { MaterialCommunityIcons as Icon } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 
 export default function Cashback({ onApply, onRemove ,alreadyApplies }) {

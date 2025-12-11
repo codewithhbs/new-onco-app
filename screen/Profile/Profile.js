@@ -6,7 +6,7 @@ import { useSelector } from 'react-redux';
 import Loader from '../../components/Loader';
 import ProfileHeader from './ProfileHeader';
 import ProfileLinks from './ProfileLinks';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import { MaterialCommunityIcons as Icon } from '@expo/vector-icons';
 import Layout from '../../components/Layout/Layout';
 
 const { width, height } = Dimensions.get('window');

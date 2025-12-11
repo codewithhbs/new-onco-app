@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { View, Text, Image, ScrollView, StyleSheet, Animated, TouchableOpacity } from 'react-native';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import { MaterialCommunityIcons as Icon } from '@expo/vector-icons';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import Header from '../../../components/Header/Header';
 import { SafeAreaView } from 'react-native-safe-area-context';
